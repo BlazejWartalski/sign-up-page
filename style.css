@@ -1,0 +1,87 @@
+@font-face{
+    font-family: norse-bold;
+    src: url(./Norse-Bold.otf);
+}
+
+html body{
+    font-family: norse-bold;
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    border-style: dotted;
+    overflow:hidden;
+    position: absolute;
+    width:46vw;
+    height:40vh;
+    flex-wrap: wrap;
+}
+
+.left {
+    /* display:flex; */
+    position: relative;
+    width:50%;
+    height:100%;
+    border-style:double;
+    flex-wrap: wrap;
+    position: relative;
+    opacity: 0.9;
+}
+
+.right {
+    /* display:flex; */
+    position: relative;
+    width: 50%;
+    height:100%;
+    border-style:double;
+    flex-wrap: wrap;
+}
+
+.leftbackgroundimage {
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.logohero{
+    display:flex;
+    align-items:center;
+    background-color:black;
+    height:40%;
+    width:100%;
+    position:absolute;
+    opacity: 0.7;
+}
+
+.logohero img {
+    width:15%;
+    left: 10%;
+    color: rgba(255, 255, 255, 0.575);
+    position: absolute;
+}
+.logohero p{
+    position: relative;
+    color:aliceblue;
+    font-size: 2rem;
+    left: 40%;
+}
+
+.authorInfo {
+    width:100%;
+    position: absolute;
+    bottom: 0;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.authorInfo p{
+    position:relative;
+    color:white;
+}
+
+.authorInfo p a{
+    text-decoration: none;
+    color:white;
+}
